@@ -14,3 +14,8 @@
 *.user
 *.suo
 *.vs/
+
+# Ignore NuGet packages
+**/packages/
+*.nupkg
+*.dll
