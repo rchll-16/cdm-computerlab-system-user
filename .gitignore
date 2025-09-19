@@ -1,21 +1,26 @@
 # Build results
-**/bin/
-**/obj/
-**/Debug/
-**/Release/
-**/packages/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
 
 # User-specific files
-*.exe
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Packages
+packages/
+*.nupkg
+
+# DLLs and EXEs (auto-generated)
 *.dll
+*.exe
 *.pdb
 *.cache
-*.log
-*.user
-*.suo
-*.vs/
 
-# Ignore NuGet packages
-**/packages/
-*.nupkg
-*.dll
+# VS settings
+.vs/
